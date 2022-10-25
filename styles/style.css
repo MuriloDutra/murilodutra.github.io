@@ -9,6 +9,10 @@ a{
     text-decoration: none;
 }
 
+ul{
+    list-style: none;
+}
+
 header{
     background-image: url("../images/ellie.jpg");
     background-size: cover;
@@ -37,7 +41,7 @@ nav {
 
 nav ul {
     display: flex;
-    list-style: none;
+    place-content: center;
 }
 
 nav ul li {
@@ -63,6 +67,7 @@ p, li {
     line-height: 2;
     letter-spacing: 1px;
     color: black;
+    margin: 0px;
 }
 
 body {
