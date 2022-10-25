@@ -11,8 +11,8 @@ body {
     padding: 0 0;
 }
 
-main{
-    padding: 0px 20px;
+main, footer{
+    padding: 30px 50px;
 }
 
 a{
@@ -21,6 +21,7 @@ a{
 
 ul{
     list-style: none;
+    padding: 0px;
 }
 
 h1 {
