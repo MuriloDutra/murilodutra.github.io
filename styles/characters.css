@@ -1,12 +1,3 @@
 header{
     background-image: url("../images/characters-banner.webp");
 }
-
-h1{
-    color: white;
-}
-
-nav ul li a{
-    color: white;
-    font-weight: bold;
-}
