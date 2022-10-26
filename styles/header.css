@@ -18,7 +18,6 @@ header a{
 }
 
 nav {
-    position: absolute;
     top: 5%;
     width: 99%;
 }
@@ -34,5 +33,15 @@ nav ul li {
 }
 
 nav ul li a{
-    color: white;
+    color: black;
+}
+
+@media only screen and (max-width: 600px) {
+    header {
+        background-position: 48% 75%;
+    }
+    
+    nav ul {
+        display: block;
+    }
 }

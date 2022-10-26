@@ -18,3 +18,13 @@ footer img {
     text-decoration: underline;
     color: white;
 }
+
+@media only screen and (max-width: 600px){
+    footer{
+        display: block;
+    }
+
+    #social-media-links{
+        margin-top: 25px;
+    }
+}

@@ -1,3 +1,9 @@
 header{
     background-image: url("../images/infected-banner.avif");
 }
+
+@media only screen and (max-width: 600px) {
+    header {
+        background-position: 83% 75%;
+    }
+}
