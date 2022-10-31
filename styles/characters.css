@@ -2,9 +2,27 @@ header{
     background-image: url("../images/banners/the-last-of-us-characters-banner.webp");
 }
 
+#characters-list{
+    margin: 10px 0px 30px 0px;
+}
+
+.gray-background{
+    background-color: #f4f4f4;
+    padding: 10px 20px;
+}
+
 .character-section{
     display: flex;
     margin-bottom: 50px;
+}
+
+.align-right{
+    text-align: right;
+}
+
+h2{
+    margin-top: 0px;
+    padding: 10px 0px;
 }
 
 figure{
@@ -19,13 +37,35 @@ figure figcaption{
     font-size: 14px;
 }
 
-.character-description{
-    margin-top: 35px;
+.character-description-right{
+    margin-top: 30px;
     padding: 0px 0px 0px 30px;
+}
+
+.character-description-left{
+    margin-top: 30px;
+    padding: 0px 30px 0px 0px;
 }
 
 @media only screen and (max-width: 600px) {
     header {
         background-position: 75% 75%;
+    }
+
+    .character-section{
+        display: block;
+    }
+
+    figure img{
+        width: 100%;
+    }
+
+    .character-description-right, .character-description-left{
+        padding: 0px;
+    }
+
+    .right-character{
+        display: flex;
+        flex-direction: column-reverse;
     }
 }
