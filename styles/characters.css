@@ -2,6 +2,28 @@ header{
     background-image: url("../images/banners/the-last-of-us-characters-banner.webp");
 }
 
+.character-section{
+    display: flex;
+    margin-bottom: 50px;
+}
+
+figure{
+    margin: 0px;
+}
+
+figure img{
+    max-width: 500px;
+}
+
+figure figcaption{
+    font-size: 14px;
+}
+
+.character-description{
+    margin-top: 35px;
+    padding: 0px 0px 0px 30px;
+}
+
 @media only screen and (max-width: 600px) {
     header {
         background-position: 75% 75%;
