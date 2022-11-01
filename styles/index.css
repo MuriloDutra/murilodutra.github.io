@@ -1,3 +1,12 @@
 header{
     background-image: url("../images/banners/ellie-the-last-of-us-banner.jpg");
 }
+
+.video-container{
+    text-align: center;
+    padding: 30px 0px;
+}
+
+.video-container iframe{
+    margin: 0px 20px;
+}
