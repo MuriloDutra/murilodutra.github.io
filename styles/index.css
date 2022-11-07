@@ -9,4 +9,11 @@ header{
 
 .video-container iframe{
     margin: 0px 20px;
+    width: 100%;
+}
+
+@media only screen and (max-width: 600px){
+    .video-container iframe{
+        margin: 20px 0px;
+    }
 }
